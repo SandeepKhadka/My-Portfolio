@@ -1,0 +1,48 @@
+/* Quotes.css */
+/* Default font size for the <p> tag */
+.quote {
+  font-size: 50px;
+  text-align: center; /* Removed quotes around "center" */
+  background-image: -webkit-linear-gradient(
+    50deg,
+    #f00,
+    #f90,
+    #ff0,
+    #0f0,
+    #00f,
+    #90f,
+    #f00
+  ); /* Removed quotes around the gradient */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 768px) {
+  .quote {
+    font-size: 24px;
+  }
+}
+
+/* Decrease font size on smaller screens */
+@media (max-width: 988px) {
+  .quote {
+    font-size: 24px;
+  }
+}
+
+/* Decrease font size further on even smaller screens */
+@media (max-width: 576px) {
+  .quote {
+    /* width: 100%; */
+    width: 300px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 430px) {
+    .quote {
+      /* width: 100%; */
+      width: 200px;
+      font-size: 20px;
+    }
+  }
